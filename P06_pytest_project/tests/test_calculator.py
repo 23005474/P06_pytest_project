@@ -4,15 +4,15 @@ from calculator.calculator import Calculator
 class TestCalculator:
     def test_add(self):
         #arrange
-        a = 4321
-        b = 1234
+        a = 10
+        b = 10
         cal = Calculator()
 
         #act
         result = cal.add(a, b)
 
         #assert
-        expected = 5555
+        expected = 20
         assert result == expected
     
     def test_subtract(self):
